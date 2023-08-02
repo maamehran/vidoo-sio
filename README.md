@@ -1,4 +1,4 @@
-1) Download iso file from vidoo iso from the link : 
+1) Download iso file from vidoo iso from the link : https://nurdllc-my.sharepoint.com/:u:/g/personal/mirzam_comodo_net/EbBZlBjYBfFBrftjoW7Ei-wBVkE1msyutcnaRT_8MTlz1w?e=2XEQI4
 2) Create a bootable usb using the ISO file from no 1 [ check google how to burn iso files to usb for ubuntu]
 3) Boot from usb and either install on hardisk or Try without install option from the boot menu
 4) Once installed / logged in ; go to terminal and run following comand to install
