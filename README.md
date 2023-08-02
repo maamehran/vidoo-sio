@@ -1,7 +1,7 @@
-1) Download iso file from the github link
-2) Create a bootable usb using the vidoo iso
-3) Boot from usb and either install on hardisk or Try without install on boot menu
-4) Once installed / logged go to terminal and run following comand to install
+1) Download iso file from vidoo iso from the link : 
+2) Create a bootable usb using the ISO file from no 1 [ check google how to burn iso files to usb for ubuntu]
+3) Boot from usb and either install on hardisk or Try without install option from the boot menu
+4) Once installed / logged in ; go to terminal and run following comand to install
 
    docker run --net host -v /var/run/docker.sock:/var/run/docker.sock --restart=always --name orchestrator-vhubzz us-east4-docker.pkg.dev/softhub-354014/softhub/orchestrator:latest /root/orchestrator vhub -start -option provision -username=your-Ezlo-username -password=your-ezlo-password -zwave=/dev/ttyUSB1 -vidoo
 
@@ -12,4 +12,5 @@ Notes:
     To enable Z-Wave support (via USB Z-Wave Stick), use this parameter: -zwave=/dev/ttyUSB1
     If you do not have a USB stick, remove the parameter.
 
-5) you can now go to localhost on your browser to login to vidoo app
+5) Go to localhost on your browser to login to vidoo app
+
